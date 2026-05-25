@@ -24,7 +24,6 @@ public class ProductRepository {
 
         ContentValues values = new ContentValues();
 
-        // Removed manual ID insertion to let AUTOINCREMENT handle it
         values.put("name", product.getName());
         values.put("description", product.getDescription());
         values.put("price", product.getPrice());
